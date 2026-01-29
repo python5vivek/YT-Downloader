@@ -18,13 +18,6 @@ An application to download YouTube videos.
 
 ## Usage
 Run the built binary or use `go run`:
-
-- Build and run:
-  - ./yt-downloader --url "https://www.youtube.com/watch?v=VIDEO_ID" --output ./downloads
-
-- Or with go run (from project root):
-  - go run ./... --url "https://www.youtube.com/watch?v=VIDEO_ID" --output ./downloads
-
 Common flags (adjust if your binary uses different flags):
 - --url     The YouTube video URL (required)
 - --output  Output directory (optional; default: current directory)
